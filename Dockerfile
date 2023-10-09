@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk17
+FROM openjdk:17-jdk-slim
 EXPOSE 3132
 
 COPY target/github-actions.jar github-actions.jar
